@@ -1,0 +1,28 @@
+
+# cd Data-Processing-Service
+
+
+'''
+venv\Scripts\activate
+cd Web-Services
+uvicorn main:app --reload --port 8000
+'''
+
+'''
+venv\Scripts\activate
+cd Web-Services\Web 
+streamlit run dashboard.py
+'''
+
+
+'''
+venv\Scripts\activate
+cd Data-Sender-Service
+python send_data.py
+'''
+
+
+
+
+
+
